@@ -1,11 +1,96 @@
-console.log("hello");
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Landing Page</title>
+  </head>
+  <body>
+    <header id="header">
+      <img src="images/trombone.png" alt="company logo" id="header-img" />
+      <nav id="nav-bar">
+        <ul>
+          <li class="nav-link"><a href="premium">Features</a></li>
+          <li class="nav-link"><a href="video">How It Works</a></li>
+          <li class="nav-link"><a href="pricing">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main-content">
+      <form
+        action="https://www.freecodecamp.com/email-submit"
+        method="get"
+        id="form"
+      >
+        <div>
+          <label for="email"></label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter your email address"
+            required
+          />
+        </div>
+        <button type="submit" id="submit">GET STARTED</button>
+      </form>
+      <section id="main-section">
+        <h2 id="premium">Premium materials</h2>
+        <p>
+          Our trombones use the shiniest brass which is sourced locally. This
+          will increase the longevity of your purchase.
+        </p>
+        <h2>Fast Shipping</h2>
+        <p>
+          We make sure you receive your trombone as soon as we have finished
+          making it. We also provide free returns if you are not satisfied.
+        </p>
+        <h2>Quality Assurance</h2>
+        <p>
+          For every purchase you make, we will ensure there are no damages or
+          faults and we will check and test the pitch of your instrument.
+        </p>
+      </section>
 
-const age = 19;
-
-function square(num) {
-  return num * num;
-}
-
-function circle(num) {
-  return num * num;
-}
+      <iframe
+        width="500"
+        height="315"
+        id="video"
+        src="https://www.youtube.com/watch?v=y8Yv4pnO7qc"
+      >
+        Sorry, your browser doesn't support embedded videos.
+      </iframe>
+      <section id="pricing">
+        <h3>TENOR TROMBONE</h3>
+        <p>$600</p>
+        <p>Lorem ipsum.</p>
+        <p>Lorem ipsum.</p>
+        <p>Lorem ipsum dolor.</p>
+        <p>Lorem ipsum.</p>
+        <button type="submit" id="select">SELECT</button>
+        <h3>BASS TROMBONE</h3>
+        <p>$900</p>
+        <p>Lorem ipsum.</p>
+        <p>Lorem ipsum.</p>
+        <p>Lorem ipsum dolor.</p>
+        <p>Lorem ipsum.</p>
+        <button type="submit" id="select">SELECT</button>
+        <h3>VALVE TROMBONE</h3>
+        <p>$1200</p>
+        <p>Lorem ipsum.</p>
+        <p>Lorem ipsum.</p>
+        <p>Lorem ipsum dolor.</p>
+        <p>Lorem ipsum.</p>
+        <button type="submit" id="select">SELECT</button>
+      </section>
+    </main>
+    <footer id="footer">
+      <ul>
+        <li>Privacy</li>
+        <li>Terms</li>
+        <li>Contact</li>
+      </ul>
+      <p>Copyright 2021, Original Trombones</p>
+    </footer>
+  </body>
+</html>
