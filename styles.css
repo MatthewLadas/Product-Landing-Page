@@ -137,3 +137,34 @@ html {
 *:after {
   box-sizing: inherit;
 }
+
+body {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#nav-bar {
+  margin: 2em 0;
+}
+
+#header-img {
+  width: 40%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-link {
+  font-size: 1.125rem;
+}
+
+.nav-links {
+  color: #000;
+  text-decoration: none;
+}
+
+#form {
+  margin: 0 auto;
+}
