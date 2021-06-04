@@ -9,11 +9,9 @@
   </head>
   <body>
     <header id="header">
+      <img src="images/trombone.png" alt="company logo" id="header-img" />
       <nav id="nav-bar">
         <ul>
-          <li>
-            <img src="images/trombone.png" alt="company logo" id="header-img" />
-          </li>
           <li class="nav-link">
             <a href="#premium" class="nav-links">Features</a>
           </li>
@@ -27,6 +25,7 @@
       </nav>
     </header>
     <main id="main-content">
+      <p id="main-p">Handcrafted, home-made masterpieces</p>
       <form
         action="https://www.freecodecamp.com/email-submit"
         method="get"
@@ -43,19 +42,20 @@
         </div>
         <button type="submit" id="submit">GET STARTED</button>
       </form>
+      <div class="container">
       <section id="main-section">
         <h2 id="premium">Premium materials</h2>
-        <p>
+        <p class="main-p">
           Our trombones use the shiniest brass which is sourced locally. This
           will increase the longevity of your purchase.
         </p>
         <h2>Fast Shipping</h2>
-        <p>
+        <p class="main-p">
           We make sure you receive your trombone as soon as we have finished
           making it. We also provide free returns if you are not satisfied.
         </p>
         <h2>Quality Assurance</h2>
-        <p>
+        <p class="main-p">
           For every purchase you make, we will ensure there are no damages or
           faults and we will check and test the pitch of your instrument.
         </p>
@@ -70,6 +70,7 @@
         Sorry, your browser doesn't support embedded videos.
       </iframe>
       <section id="pricing">
+        <div class="card">
         <h3>TENOR TROMBONE</h3>
         <p>$600</p>
         <p>Lorem ipsum.</p>
@@ -77,6 +78,8 @@
         <p>Lorem ipsum dolor.</p>
         <p>Lorem ipsum.</p>
         <button type="submit" id="select">SELECT</button>
+      </div>
+      <div class="card">
         <h3>BASS TROMBONE</h3>
         <p>$900</p>
         <p>Lorem ipsum.</p>
@@ -84,6 +87,8 @@
         <p>Lorem ipsum dolor.</p>
         <p>Lorem ipsum.</p>
         <button type="submit" id="select">SELECT</button>
+      </div>
+      <div class="card">
         <h3>VALVE TROMBONE</h3>
         <p>$1200</p>
         <p>Lorem ipsum.</p>
@@ -91,6 +96,7 @@
         <p>Lorem ipsum dolor.</p>
         <p>Lorem ipsum.</p>
         <button type="submit" id="select">SELECT</button>
+      </div>
       </section>
     </main>
     <footer id="footer">
@@ -101,5 +107,6 @@
       </ul>
       <p>Copyright 2021, Original Trombones</p>
     </footer>
+  </div>
   </body>
 </html>
