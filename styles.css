@@ -140,6 +140,7 @@ html {
 
 body {
   width: 90%;
+  max-width: 1500px;
   margin: 0 auto;
 }
 
@@ -147,6 +148,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
 }
 
 #header-img {
@@ -209,5 +212,70 @@ h2 {
 }
 
 #video {
+  display: block;
   margin: 0 auto;
+}
+
+#pricing {
+  display: flex;
+  justify-content: space-between;
+  margin: 4em;
+}
+
+.card {
+  width: 30%;
+  border: 1px solid #c9c9c9;
+  border-radius: 15px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.wrapper {
+  background-color: rgb(175, 171, 171);
+  padding: 1.125em;
+  font-size: 1.125em;
+  font-weight: 700;
+}
+
+p,
+#select {
+  margin: 1.125em 0;
+}
+
+.para {
+  font-size: 1.125em;
+  font-weight: 700;
+}
+
+#select {
+  background-color: goldenrod;
+  padding: 0.5em 1em;
+}
+
+#select:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
+  color: #fff;
+}
+
+#footer {
+  margin-top: 1.5em;
+  background-color: gray;
+  text-align: end;
+}
+
+#footer ul {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1.125em;
+}
+
+#footer p {
+  text-align: center;
+  padding-bottom: 0.5em;
+}
+
+.links {
+  text-decoration: none;
+  color: #000;
 }
